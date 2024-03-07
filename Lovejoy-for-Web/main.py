@@ -3,6 +3,7 @@
 import pygame
 import os
 import time
+import sys
 import random
 import asyncio
 
@@ -210,24 +211,23 @@ lose_text_scale = .5
 lose_text = pygame.transform.scale(lose_text_og, (lose_text_og.get_width()*lose_text_scale, lose_text_og.get_height()*lose_text_scale))
 lose_text.set_colorkey(white)   # Set white color as transparent
 
-# Load sound
-# pygame.mixer.init()
-# buying_ink_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "buying-ink.mp3")) # line 125
-# buying_paper_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "buying-paper-louder.mp3"))
-# newspaper_sale_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "newspaper-sale-louder.mp3"))
-# buying_printing_press_sound = pygame.mixer.Sound(os.path.join("assets", "sound/buying-printing-press.mp3"))
-# step_sounds = []
-# for i in range(1, 7):
-#     sound_path = os.path.join("assets", "sound", "steps", f"step-{i}.mp3")
-#     step_sound = pygame.mixer.Sound(sound_path)
-#     step_sounds.append(step_sound)
-# step_channel = pygame.mixer.Channel(1)
-# normal_music = pygame.mixer.Sound(os.path.join("assets", "sound", "normal-music-quieter.mp3"))
-# mob_music = pygame.mixer.Sound(os.path.join("assets", "sound", "mob-music.mp3"))
+pygame.mixer.init()
+buying_ink_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "buying-ink.ogg")) # line 125
+buying_paper_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "buying-paper-louder.ogg"))
+newspaper_sale_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "newspaper-sale-louder.ogg"))
+buying_printing_press_sound = pygame.mixer.Sound(os.path.join("assets", "sound", "buying-printing-press.ogg"))
+step_sounds = []
+for i in range(1, 7):
+    sound_path = os.path.join("assets", "sound", "steps", f"step-{i}.ogg")
+    step_sound = pygame.mixer.Sound(sound_path)
+    step_sounds.append(step_sound)
+step_channel = pygame.mixer.Channel(1)
+normal_music = pygame.mixer.Sound(os.path.join("assets", "sound", "normal-music-quieter.ogg"))
+mob_music = pygame.mixer.Sound(os.path.join("assets", "sound", "mob-music.ogg"))
 
 # Set up the initial music
-# current_music = normal_music
-# current_music.play(loops=-1)  # Start playing the normal music on loop initially
+current_music = normal_music
+current_music.play(loops=-1)  # Start playing the normal music on loop initially
 
 # Functions
 def draw_ink_bottles(num_bottles):
@@ -295,13 +295,13 @@ def draw_paragraph(start_x, start_y, lines):
         screen.blit(text_surface, text_rect)
         y += text_rect.height # Adjusting vertical spacing
 
-# def play_random_step_sound():
-#     # Check if the step channel is not busy
-#     if not step_channel.get_busy():
-#         # Select a random step sound
-#         random_step_sound = random.choice(step_sounds)
-#         # Play the selected step sound
-#         step_channel.play(random_step_sound)
+def play_random_step_sound():
+    # Check if the step channel is not busy
+    if not step_channel.get_busy():
+        # Select a random step sound
+        random_step_sound = random.choice(step_sounds)
+        # Play the selected step sound
+        step_channel.play(random_step_sound)
 
 # Main game loop
 shopping = False
@@ -414,7 +414,7 @@ async def main():
                 elif main_character.rect.x <= -100 and holding_news:
                     money += paper_price
                     holding_news = False
-                    #newspaper_sale_sound.play()
+                    newspaper_sale_sound.play()
                     if not timer_started:
                         timer_started = True
                         start_time = time.time()
@@ -429,20 +429,20 @@ async def main():
                         shopping = False
                     elif shopping and 195 <= event.pos[0] <= 195+190 and 205 <= event.pos[1] <= 205+190 and money >= 2 and num_ink < 5:
                         if tutorial_stage <= 5 and num_ink != 1:
-                            #buying_ink_sound.play()
+                            buying_ink_sound.play()
                             money -= 2
                             num_ink += 1
                         elif tutorial_stage > 5:
-                            #buying_ink_sound.play()
+                            buying_ink_sound.play()
                             money -= 2
                             num_ink += 1
                     elif shopping and 195 <= event.pos[0] <= 195+190 and 465 <= event.pos[1] <= 465+190 and money >= 5 and num_paper < 5:
                         if tutorial_stage <= 5 and num_paper != 1:
-                            #buying_paper_sound.play()
+                            buying_paper_sound.play()
                             money -= 5
                             num_paper += 1
                         elif tutorial_stage > 5:
-                            #buying_paper_sound.play()
+                            buying_paper_sound.play()
                             money -= 5
                             num_paper += 1
                     elif shopping and 430 <= event.pos[0] <= 430+390 and 235 <= event.pos[1] <= 235+390 and money >= 130 and not has_printing_press:
@@ -452,7 +452,7 @@ async def main():
                         else:
                             money -= 130
                             has_printing_press = True
-                            #buying_printing_press_sound.play()
+                            buying_printing_press_sound.play()
                     elif shopping and 865 <= event.pos[0] <= 865+190 and 465 <= event.pos[1] <= 465+190 and money >= 140 and not has_paperboy:
                         money -= 140
                         has_paperboy = True
@@ -569,7 +569,7 @@ async def main():
                 elif paper_boy.rect.x <= -250 and paperboy_holding_news:
                     money += paper_price
                     paperboy_holding_news = False
-                    #newspaper_sale_sound.play()
+                    newspaper_sale_sound.play()
                     if not timer_started:
                         timer_started = True
                         start_time = time.time()
@@ -578,12 +578,12 @@ async def main():
                     paper_boy.direction = "left"
                     paper_boy.action = "walk"
                     paper_boy.rect.x -= character_speed
-                    #play_random_step_sound()
+                    play_random_step_sound()
                 elif paper_boy.rect.x <= 150 and not paperboy_holding_news:
                     paper_boy.direction = "right"
                     paper_boy.action = "walk"
                     paper_boy.rect.x += character_speed
-                    #play_random_step_sound()
+                    play_random_step_sound()
 
             # Draw printer
             if has_printer:
@@ -684,10 +684,10 @@ async def main():
                     if num_news >= 1: tutorial_stage += 1
 
             if outrage == 100:
-                # if current_music != mob_music:
-                #     current_music.stop()  # Stop current music
-                #     current_music = mob_music  # Change to mob music
-                #     current_music.play(loops=-1)  # Start playing mob music on loop
+                if current_music != mob_music:
+                    current_music.stop()  # Stop current music
+                    current_music = mob_music  # Change to mob music
+                    current_music.play(loops=-1)  # Start playing mob music on loop
                 shopping = False
                 character_frozen = True
                 shopping_enabled = False
@@ -697,10 +697,10 @@ async def main():
                     rectangle_surface.fill((0, 0, 0, alpha))
                     screen.blit(rectangle_surface, (0, 0))
                 if alpha == 255:
-                    # if current_music != normal_music:
-                    #     current_music.fadeout(1000)  # Fade out the current music
-                    #     current_music = normal_music  # Change to normal music
-                    #     current_music.play(loops=-1, fade_ms=1000)  # Start playing normal music with fade-in
+                    if current_music != normal_music:
+                        current_music.fadeout(1000)  # Fade out the current music
+                        current_music = normal_music  # Change to normal music
+                        current_music.play(loops=-1, fade_ms=1000)  # Start playing normal music with fade-in
                     tutorial_stage += 1
                     outrage = 0
                     inspo = 0
