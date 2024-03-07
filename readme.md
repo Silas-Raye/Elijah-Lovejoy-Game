@@ -1,4 +1,4 @@
-# Play the game (HERE)[https://s7ygian.itch.io/the-observer-2]
+# Play the game [HERE](https://s7ygian.itch.io/the-observer-2)
 Good luck, and I hope you enjoy my game!
 
 # The Team:
