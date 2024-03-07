@@ -3,9 +3,9 @@ Good luck, and I hope you enjoy my game!
 
 # The Team:
 ## 🇺🇸 Silas (Discord: AeronautAce)
-Coding, Creation of Background Art Using AI, Game Concept, Graphics
+Coding, Creation of Background Art Using AI, Game Concept, and Graphics
 ## 🇺🇸 Maddie (Discord: maddhaus)
-Ideation, Design Consulting
+Ideation, Play Testing, and Design Consulting
 ## 🇺🇦 Heejkl (Discord: kavee)
 Sound Design and Music
 ## 🇦🇺 Momonga (Discord: Momonga)
