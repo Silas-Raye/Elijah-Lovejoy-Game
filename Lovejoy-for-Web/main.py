@@ -372,6 +372,7 @@ async def main():
     global mob_scroll
     global printing_press_scroll
     global last_key_time
+    global current_music
 
     while True:
         for event in pygame.event.get():
