@@ -1,0 +1,133 @@
+﻿Links
+* Lovejoy Wikipedia
+* Printing press example
+* Lovejoy’s printing press
+* Detailed Lovejoy video
+* Short Lovejoy video
+* Lovejoy Quotes
+
+
+Game Name Ideas
+* The Observer
+
+
+Timeline / Level Map
+
+
+LEVEL 1 - St Louis 1836
+
+
+Cut to newspaper saying the trail for the Lynching of Francis McIntosh was a sham
+  
+
+  
+
+
+
+Awful murder and savage barbarity. The transactions we are about to relate took place on Thursday, a week ago, and even yet we have not recovered from the shock they gave us. Our hand trembles as we record the story.
+
+
+“The Lynching of Francis McIntosh, a free black man, was an act of awful and savage barbarity, and the subsequent trial by Judge Lawless (no kidding that was the judge’s real name) was a sham.”
+
+
+Mob attack #1 - First printing press is destroyed
+
+
+Cut to letters that are death threats to lovejoy and his family. (Lovejoy is forced to move to Alton after he and his family receive death threats in St Louis. the St Louis Observer is renamed to the Alton Observer)
+(God will punish you, Lovejoy. You will burn in hell and your family will drown in their own blood. Retribution is coming)
+
+
+LEVEL 2 - Alton 1837
+
+
+Cut to newspaper saying that slavery is a sin
+  
+
+  
+
+“Abolitionists, therefore, hold American slavery to be a wrong, a legalized system of inconceivable injustice, and a sin.” july 20th 1837
+
+
+Mob attack #2 -. Second printing press destroyed
+
+
+Cut to letters saying that the third printing press was intercepted before it could be unloaded from a riverboat. It was thrown into the river.
+(Mr. Lovejoy, yesterday(date), your printing press found itself in an unusual mishap, tossed into the river while aboard our vessel. It appears to have been an inadvertent accident. We extend our heartfelt apologies.)
+
+
+LEVEL 3 - Alton 1837
+
+
+This time there is no cutaway the mob simply storms the print shop killing Lovjoy who stands and defends his printing press
+
+
+Cut to a newspaper article saying that  Elijah Parish Lovejoy and a man named Bishop (one of the people in the mob) were killed on November 6, 1837.
+(Elijah Lovejoy was a prominent abolitionist and editor of the "Alton Observer" newspaper in the United States in the 19th century. He consistently risked his life by opposing slavery and defending the right to freedom of speech. Elijah Lovejoy lost his life in an attack on his editorial office on November 7, 1837. His courageous fight for principles of justice and freedom has left an indelible mark in the history of the struggle for human rights.)
+
+
+Credits
+* 🇺🇲Silas Raye
+* 🇺🇦 Heejkl
+* 🇦🇺Momonga
+* (Momonga add your country flags and chosen names here)
+
+
+Game Premise
+The game is about the assassination of Elijah Lovejoy. He owned an abolitionist newspaper in the 1830s. I think his story is interesting and would make for a good game because he had his printing press destroyed by an angry mob not one, not two, not three, but four times! The fourth time they killed him.
+
+
+In the game you will play as Lovejoy. The game will be about selling newspapers. With each mob attack the sales multiplier will increase as more and more people come to read the Alton Observer (Lovejoys newspaper). After each attack the player will need to have enough money to purchase a new printing press to pass the level.
+
+
+It will be a resource management game in which players must manage the operations of the printing press, including hiring staff, purchasing paper and ink, and ensuring timely production of newspapers. Players will need to balance expenses with revenue generated from newspaper sales.
+
+
+Game Details
+
+
+Shop Layout - The following items will be on the floor of the shop in order from left to right: a window in the left wall overlooking the Mississippi river, a small desk shoved against the left wall looking out the window, stacks of boxes full of paper, a large printing press taking up the center of the room, large jars of ink, a table housing tied bundles of finished newspapers, a door leading out of the shop to a news stand.
+
+
+Gameplay - I'm thinking there are 3 "work stations" the desk, the printing press, and the news stand. There are 3 status bars: money (you make it by selling papers on the porch and you spend it in the shop), outrage (servers as a level timer. gives the time till the next mob attack), inspiration (accumulated by sitting at the desk writing). There are 3 more status bars but instead of actual status bars they are shown visually within the shop: stacks of paper and bottles of ink to the left  and right of the printing press and a table with finished newspaper bundles on the porch of the shop
+
+
+Tone - Lovejoy was a preacher as well as a newspaper writer so the shop should have a warm tones as it was probably a place where Lovejoy found spiritual fulfillment. I'm envisioning big beams of sunlight. maybe even a stained glass to give it a sort of a church vibe. I think there should be a tonal shift with a drastic change in color and music at the end of each level when the mob comes to attack
+
+---
+
+
+The outrage is a timer and at the end of it the mob comes. Timer doesn't start till you start printing. So if you don’t print the mob won’t come get you **lore**
+
+
+---
+
+
+[After having your printing press destroyed”, “and receiving several death threats,”, ”you decide to move across the Mississippi”, “to the free state of Illinois.”, “There you buy a new printing press”, “and continue to preach abolition.]
+
+
+You have become somewhat famous for your radical views, and you sell more newspapers than ever before. Your papers now sell for more, but public outrage increases quicker.
+
+
+You feel that you have to keep printing
+
+
+The mob intercepts your third printing press and throws it into the river. You must buy another one to continue printing.
+
+
+---
+Elijah Parish Lovejoy was an American journalist, newspaper editor, and abolitionist. Born on November 9, 1802, in Maine, Lovejoy was raised in a devoutly religious family, which greatly influenced his beliefs and activism later in life.
+After college, Lovejoy embarked on a career in journalism. He initially worked for newspapers in Boston and New York before moving to St. Louis, Missouri, in 1827. There, Lovejoy became the editor of the “St. Louis Observer”, a Presbyterian newspaper. Lovejoy was not always an abolitionist. It wasn’t until the lynching of Francis McIntosh, a free black man living in St. Louis, that Lovejoy began to oppose slavery.
+Francis McIntosh was burned alive by a white mob. The killers were brought before Judge Lawless (no kidding that was his real name) who dropped all charges against them. This sort of thing was not uncommon for the time period; however, Lovejoy was appalled by the brutal killing. Lovejoy wrote of the killing in the observer calling it “Awful Murder and Savage Barbarity.”
+Lovejoy's vocal opposition to slavery quickly made him a target of pro-slavery forces in Missouri where he was the editor of the St. Louis Observer. After a mob destroyed his printing press and threatened his life, he moved across the Mississippi to the city of Alton in the free state of Illinois where he continued to publish his newspaper now called the Alton Observer.
+This proved little help as his printing press was destroyed again. When he ordered another it was thrown into the river before it could be delivered to him. Eventually Lovejoy acquired a fourth printing press, and hid it in a warehouse. Despite his precautions, Lovejoy's fourth and final printing press was discovered. On November 7, 1837, a mob attacked his printing press for the final time. Lovejoy and his supporters attempted to defend the press, but during the confrontation, Lovejoy was shot and killed. He became a martyr for the abolitionist cause, and his death further galvanized the anti-slavery movement in the United States.
+ His newspaper faced threats, harassment, and attacks from those who supported the institution of slavery. 
+Despite the dangers, Lovejoy remained steadfast in his commitment to the abolitionist cause and continued to use his platform to denounce slavery.
+In 1836, Lovejoy moved his newspaper to Alton, Illinois, in the hope of finding a more supportive environment for his anti-slavery views. However, he encountered similar opposition in Alton. Lovejoy's printing press was destroyed multiple times by pro-slavery mobs, and he faced numerous threats to his life.
+Despite the danger, Lovejoy refused to be silenced. 
+Elijah Parish Lovejoy's legacy endures as a symbol of courage and dedication in the fight against injustice. His commitment to freedom of speech and his unwavering opposition to slavery continue to inspire generations of activists striving for equality and social justice.
+
+
+🇺🇲
+🇺🇲
+🇺🇦 
+🇦🇺
